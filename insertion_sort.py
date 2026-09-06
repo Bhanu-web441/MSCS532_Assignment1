@@ -33,4 +33,18 @@ sorted_numbers = insertion_sort_decreasing(numbers.copy())
 
 print("\nSorted Array in Monotonically Decreasing Order:")
 print(sorted_numbers)
-Add initial insertion sort program
+# Additional test cases to verify the algorithm
+test_cases = [
+    [5, 2, 9, 1, 5, 6],
+    [1, 2, 3, 4, 5],
+    [10, 8, 6, 4, 2],
+    [4, 4, 2, 9, 9]
+]
+
+print("\nAdditional Test Cases:")
+
+for test in test_cases:
+    result = insertion_sort_decreasing(test.copy())
+    print("Original:", test)
+    print("Sorted:", result)
+    Add initial insertion sort program
