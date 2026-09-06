@@ -47,4 +47,3 @@ for test in test_cases:
     result = insertion_sort_decreasing(test.copy())
     print("Original:", test)
     print("Sorted:", result)
-    Add initial insertion sort program
